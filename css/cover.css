@@ -1,0 +1,124 @@
+.cover{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .3)
+}
+.ai-modal{
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    padding: 14px 0px 0;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2)
+}
+.modadl-header{
+    height: 40px;
+    width: 420px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    padding-bottom: 10px;
+    background: transparent;
+    font-weight: 500;
+    position: relative
+}
+.nav-sub-list{
+    background-color: #000;
+    background-color: rgba(0,0,0,.9);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 60px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    transition: opacity .2s;
+}
+.nav-item-industry:hover .nav-sub-list{
+    visibility: visible;
+    opacity: 1;
+}
+.nav-item-industry{
+    cursor: pointer;
+}
+.nav_suv_new{
+    display: inline-block;
+    border-right: 0;
+}
+.nav-sub-item a{
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+.nav-sub-item a:hover{
+    background-color: #272727;
+}
+.modal-x{
+    background: url(../images/parsing/icon_del.png);
+    background-repeat: no-repeat;
+    float: right;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    background-size: contain;
+}
+.modal-x:hover{
+    background-image: url(../images/parsing/icon_del_hover.png);
+}
+.modal-content{
+    color: #666;
+    font-size: 12px;
+    padding: 20px 25px 0;
+    position: relative;
+    width: 420px;
+}
+#input-spe{
+    padding-bottom: 30px;
+}
+.modal-content input{
+    width: 400px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border: 1px solid #f2f2f2;
+    height: 30px;
+}
+::-webkit-input-placeholder{
+    color: #aaa;
+}
+.form-actions{
+    text-align: center;
+    margin: 26px 0;
+}
+.btn-primary{
+    width: 115px;
+    height: 38px;
+    font-size: 16px;
+    border: none;
+}
+.btn-first, .btn-second{
+    background: #0073eb;
+    color: #fff;
+    transition: all .5s
+}
+.btn-second{
+    color: #333;
+    background: #fff;
+    margin-left: 30px;
+    border: 1px solid #f2f2f2;
+}
+.btn-first:hover{
+    background: #3095ff;
+}
+.btn-second:hover{
+    background:rgba(0,0,0,.05);
+}
