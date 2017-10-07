@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图像审核</title>
+    <link href="CSS/reset.css" rel="stylesheet" media="screen">
+    <link href="CSS/Image verification.css" rel="stylesheet" media="screen">
+    <link href="CSS/cover.css" rel="stylesheet" media="screen">
+    <script src="js/cover.js"></script>
+</head>
+<body class="ai-latform">
+    <div class="nav_w">
+        <div class="nav_clearfix">
+            <div class="logo f_l"><a href=""><img src="images/logo.png"></a></div>
+            <div class="nav_list f_l">
+                <div class="nav_item"><a href="index.html" class="a_1">首页</a></div>
+                <div class="nav_item nav-item-service">
+                    <a href="" class="a_1">产品服务</a>
+                    <div class="nav_sub o_h">
+                        <div class="nav_sub_col">
+                            <div class="nav_sub_block">
+                                <div class="nav_sub_tittle">图像识别</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_row">
+                                        <a href="Image-verification.html" class="nav_sub_l2">图像审核</a>
+                                        <a href="terrorism.html" class="nav_sub_l3">暴恐识别</a>
+                                    </div>
+                                    <div class="nav_sub_row">  
+                                        <a href="images-search.html" class="nav_sub_l2 nav_suv_new">图像识别</a>
+                                    </div>
+                                    <div class="nav_sub_row">
+                                        <a href="images-discover.html" class="nav_sub_l2 nav_suv_new">图像搜索</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav_sub_block">
+                                <div class="nav_sub_tittle">自然语言</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_con_l">
+                                        <a href="technology.html" class="nav_sub_l2">语言处理基础技术</a>
+                                    </div>
+                                    <div class="f_l nav_sub_con">
+                                        <a href="parsing.html" class="nav_sub_l3">依存句法分析</a>
+                                        <a href="vector.html" class="nav_sub_l3">词向量表示</a>
+                                        <a href="similarity.html" class="nav_sub_l3">词义相似度</a>
+                                        <a href="affective.html" class="nav_sub_l3">情感倾向分析</a>
+                                    </div>
+                                </div>
+                                    <div class="nav_sub_row">
+                                        <a href="http://fanyi-api.baidu.com/api/trans/product/index" class="nav_sub_l2 no_l3" target="_blank">翻译开发平台</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="nav_sub_col">
+                            <div class="nav_sub_block">
+                                <div class="nav_sub_tittle">语音技术</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_row">
+                                        <a href="speech.html" class="nav_sub_l2">语音识别</a>
+                                        <a href="speech-recognition.html" class="nav_sub_l3">语音识别</a>
+                                        <a href="Long-speech-recognition.html" class="nav_sub_l3">长语音识别</a>
+                                        <a href="far-field-speech-recognition.html" class="nav_sub_l3">远场语音识别</a>
+                                    </div>
+                                    <div class="nav_sub_row">  
+                                        <a href="speech-synthesis.html" class="nav_sub_l2 no_l3">语音合成</a>
+                                    </div>
+                                    <div class="nav_sub_row">
+                                        <a href="Voice-wakeup.html" class="nav_sub_l2 no_l3">语音唤醒</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav_sub_block">
+                                <div class="nav_sub_tittle">视频技术</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_row">
+                                        <a href="video.html" class="nav_sub_l2 no_l3">视频封面选图</a>
+                                        <a href="video-search.html" class="nav_sub_l2 no_l3">视频比对检索</a>
+                                        <a href="review.html" class="nav_sub_l2 no_l3">视频内容审核</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav_sub_col">
+                            <div class="nav_sub_block">
+                                <div class="nav_sub_tittle">知识图谱</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_row">
+                                        <a href="schema.html" class="nav_sub_l2 no_l3">知识图谱Schema</a>
+                                        <a href="extraction.html" class="nav_sub_l2 no_l3">结构化数据抽取</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav_sub_block">
+                                <div class="nav_sub_tittle">增强现实</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_row">
+                                        <a href="http://ar.baidu.com/home" class="nav_sub_l2 no_l3">AR平台</a>
+                                    </div>
+                                </div>
+                            </div><div class="nav_sub_block">
+                                <div class="nav_sub_tittle">深度学习</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_row">
+                                        <a href="http://www.paddlepaddle.org/index.cn.html" class="nav_sub_l2 no_l3">PaddlePaddle</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_item nav-item-industry">
+                    <a href="" class="a_1">行业生态</a>
+                    <div class="nav-sub-list"> 
+                        <div class="nav-sub-item"><a href="http://apollo.auto/" target="_blank">Apollo</a></div>
+                        <div class="nav-sub-item"><a href="http://developer.dueros.baidu.com/" target="_blank">DuerOS</a></div>
+                    </div>
+                </div>
+                <div class="nav_item nav-item-solution">
+                    <a href="" class="a_1">解决方案</a>
+                    <div class="nav_sub_lo">
+                        <div class="nav_sub_item"><a href="Robot-vision.html">机器人视觉</a></div>
+                        <div class="nav_sub_item"><a href="conversational_robot.html">对话式机器人</a></div>
+                        <div class="nav_sub_item"><a href="smarthome.html">DuerOS智慧家庭</a></div>
+                        <div class="nav_sub_item"><a href="intelligent-marketing.html">AR智能营销</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="f_r">
+                <div class="nav_item"><a href="https://console.bce.baidu.com/?fromai=1#/aip/overview" target="_blank" class="a_1">控制台</a></div>
+            </div>
+        </div>
+    </div>
+    <!--NAV部分-->
+    <article class="ai-content">
+        <div class="tech-banner">
+            <div class="tech-banner-shape">
+            <div class="ai-container">
+                <div class="txt-container">
+                    <div class="txt-container-title">图像审核</div>
+                    <div class="tech-banner-info">
+                    基于深度学习的智能内容审核方案，准确识别图片和视频中的涉黄、涉暴涉恐、政治敏感、微商广告、恶心等内容，也能从美观和清晰等维度对图像进行筛选，快速精准，解放审核人力
+                    </div>
+                    <a role="button" class="tech-banner-btn media-new" href="####">合作咨询</a>
+                    <a role="button" class="tech-banner-btn media-new" href="####">立即使用</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--banner结束-->
+        <div class="teach-demo">
+            <div class="teach-demo-title">产品功能</div>
+            <div class="conter">
+                <div class="tech-prod-container">
+                    <span class="tech-cover">
+                        <div class="item-prod-img "></div>
+                         <div class="tech-prod-sign tech-prod-sign-1"></div>   
+                    </span>
+                    <div class="tech-prod-info">
+                        <h4 class="tech-prod-name">色情识别</h4>
+                        <div class="info-coninter">       
+                        人工智能鉴黄技术，智能识别图片和视频中的色情和性感内容，让您的应用轻松过审，远离违规风险
+                        </div>
+                        <a class="tech-prod-panel" href="####">合作咨询</a>
+                        <a class="tech-prod-panel" href="####">立即使用</a>
+                    </div>
+                </div>
+                <div class="tech-prod-container">
+                    <span class="tech-cover">
+                        <div class="item-prod-img cointer-img"></div>
+                        <div class="tech-prod-sign tech-prod-sign-2"></div>
+                        </span>
+                    <div class="tech-prod-info">
+                        <h4 class="tech-prod-name">暴恐识别</h4>
+                        <div class="info-coninter">       
+                        识别暴力，血腥场景及恐怖组织头目，旗帜等涉嫌违禁的图片和视频内容，降低应用涉暴涉恐风险
+                        </div>
+                        <a class="tech-prod-panel" href="####">了解详情</a>
+                        <a class="tech-prod-panel" href="####">立即使用</a>
+                    </div>
+            </div>
+            <div class="tech-prod-container">
+                    <span class="tech-cover">
+                        <div class="item-prod-img cointer-img1"></div>
+                        <div class="tech-prod-sign tech-prod-sign-3"></div>
+                        </span>
+                    <div class="tech-prod-info">
+                        <h4 class="tech-prod-name">政治敏感识别</h4>
+                        <div class="info-coninter">         
+                        实现2万类品牌logo识别，返回品牌名称，支持接入方自建logo库
+                        </div>
+                        <a class="tech-prod-panel" href="####">合作咨询</a>
+                        <a class="tech-prod-panel" href="####">立即使用</a>
+               </div>
+            </div>
+            <div class="tech-prod-container">
+                    <span class="tech-cover">
+                        <div class="item-prod-img cointer-img2"></div>
+                        <div class="tech-prod-sign tech-prod-sign-4"></div>
+                        </span>
+                    <div class="tech-prod-info">
+                        <h4 class="tech-prod-name">广告检测</h4>
+                        <div class="info-coninter">       
+                        智能检测图像中的文字、水印、二维码、条形码，检测各种微商广告，净化您的应用
+                        </div>
+                        <a class="tech-prod-panel" href="####">合作咨询</a>
+                        <a class="tech-prod-panel" href="####">立即使用</a>
+               </div>
+            </div>
+            <div class="tech-prod-container">
+                    <span class="tech-cover">
+                        <div class="item-prod-img cointer-img3"></div>
+                        <div class="tech-prod-sign tech-prod-sign-5"></div>   
+                        </span>
+                    <div class="tech-prod-info">
+                        <h4 class="tech-prod-name">恶心图像识别</h4>
+                        <div class="info-coninter">       
+                        准确识别恶心，令人不适类的图像，包含尸体、解剖、昆虫类、生理病变、会引起密集恐惧症等图像
+                        </div>
+                        <a class="tech-prod-panel" href="####">合作咨询</a>
+                        <a class="tech-prod-panel" href="####">立即使用</a>
+               </div>
+            </div>
+            <div class="tech-prod-container">
+                    <span class="tech-cover">
+                        <div class="item-prod-img cointer-img4"></div>
+                        <div class="tech-prod-sign tech-prod-sign-6"></div>
+                    </span>
+                    <div class="tech-prod-info">
+                        <h4 class="tech-prod-name">图像质量检测</h4>
+                        <div class="info-coninter">       
+                        图像美观度与清晰度识别，检测图像色彩、构图及是否存在模糊、失焦、噪点、锯齿、马赛克等情况
+                        </div>
+                        <a class="tech-prod-panel" href="####">合作咨询</a>
+                        <a class="tech-prod-panel" href="####">立即使用</a>
+               </div>
+            </div>
+            <div class="tech-prod-container">
+                    <span class="tech-cover">
+                        <div class="item-prod-img cointer-img5"></div>
+                        <div class="tech-prod-sign tech-prod-sign-7"></div>  
+                        </span>
+                    <div class="tech-prod-info">
+                        <h4 class="tech-prod-name">用户头像审核</h4>
+                        <div class="info-coninter">        
+                        对用户头像进行合规判断，含人脸检测，涉黄涉敏检测，广告检测等。现已支持自定义设置审核规则
+                        </div>
+                        <a class="tech-prod-panel" href="####">合作咨询</a>
+                        <a class="tech-prod-panel" href="####">立即使用</a>
+               </div>
+            </div>
+        </div>
+        <!--功能演示结束-->
+        <div class="tech-scence">
+           <div class="tech-scence-header block" data-move-x="500px">应用场景</div>
+           <div class="ai-container scence">
+                <div class="tech-scence-wrapper">
+                    <div class="tech-scence-item block" data-rotate-y="180deg" data-move-x="150%">
+                        <h4>视频直播内容审核</h4>
+                        <p>直播等场景中采用色情识别、暴恐识别、政治敏感识别技术，实现对图片、视频、直播等内容的实时自动审核，标准统一，简单快速，成本低廉 
+                        </p>
+                        <div class="tech-scence-serve sper">
+                            <span class="main-serve">主要服务:</span>
+                            <span class="main-list">暴恐识别</span>
+                            <span class="main-list">色情识别</span>
+                        </div>
+                        <hr class="line">
+                    <div class="tech-scence-cooperation">
+                        <span class="cooperation-title">合作案例:</span>
+                        <span class="cooperation-icon spe"></span>
+                        <span class="cooperation-title">网盘</span>   
+                    </div>
+                  </div>
+                </div>
+                <div class="tech-scence-wrapper">
+                    <div class="tech-scence-item spe-height block" data-rotate-y="-180deg" data-move-x="-150%">
+                        <h4>社交/电商内容监管</h4>
+                        <p>在社交，电商类应用中大量的色情，暴力，政治敏感图片让应用面临监管风险。接入图像审核服务，实现自动甄别图片内容中的相关违规信息，有效减少人力成本并降低业务违规风险
+                        </p>
+                        <div class="tech-scence-serve">
+                            <span class="main-serve">主要服务:</span>
+                            <span class="main-list">暴恐识别</span>
+                            <span class="main-list">色情识别</span>
+                        </div>
+                            <hr class="line">
+                            <div class="tech-scence-cooperation">
+                        <span class="cooperation-title">合作案例:</span>
+                        <span class="cooperation-icon spr"></span>
+                        <span class="cooperation-title">贴吧</span>   
+                    </div>
+                        </div>  
+                    </div>
+                  </div>
+                </div>  
+            </div>
+        </div>
+        <!--应用场景结束-->
+        <div class="tech-feature">
+        <h4 class="tech-feature-header block" data-move-x="-500px">技术特色</h4>
+        <div class="ai-container">
+            <div class="feature-container">
+                 <div class="feature-items block" data-scale="3">
+                    <div class="tech-feature-icon tech-feature-icon-1"></div>
+                    <h4 class="desc-title">准确性高</h4>
+                        <p class="desc-info">
+                        暴恐识别准确率可达94%以上，对有效图片快速处理，第一时间杜绝风险，极大减少人工审核工作量
+                        </p>
+                </div> 
+                <div class="feature-items block" data-scale="3">
+                    <div class="tech-feature-icon tech-feature-icon-2"></div>
+                    <h4 class="desc-title">稳定性好</h4>
+                        <p class="desc-info">
+                        提供24小时云端高稳定服务，宕机率低，故障恢复快，单图毫秒级响应，服务可用性高达99.95%
+                        </p>
+                </div>
+                <div class="feature-items block" data-scale="3">
+                    <div class="tech-feature-icon tech-feature-icon-3"></div>
+                    <h4 class="desc-title">使用方便</h4>
+                        <p class="desc-info">
+                        支持一次请求，组合调用多个服务；支持个性化审核规则配置；提供badcase反馈接口和定制优化服务
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--技术特色部分结束-->
+            <div class="tech-guide">
+                <div class="large">免费试用</div>
+                <div class="ai-container">
+                    <div class="guide-route">
+                        <div class="tech-guide-step">
+                            <div class="tech-guide-step-num">1</div>
+                            <div class="tech-guide-name">新手入门</div>
+                        </div>
+                        <div class="tech-guide-step">
+                            <div class="tech-guide-step-num">2</div>
+                            <div class="tech-guide-name">创建应用</div>
+                        </div>
+                        <div class="tech-guide-step">
+                            <div class="tech-guide-step-num">3</div>
+                            <div class="tech-guide-name">获取密钥</div>
+                        </div>
+                        <div class="tech-guide-step">
+                            <div class="tech-guide-step-num">4</div>
+                            <div class="tech-guide-name">生成签名</div>
+                        </div>
+                        <div class="tech-guide-step-spe">
+                            <div class="tech-guide-step-num">5</div>
+                            <div class="tech-guide-name">启动开发</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--产品优势结束-->
+    </article>
+    <div class="aside-action">
+        <ul>
+            <li id="consult" class="consult">
+                <a href="####" id="ai-consult" data-spec="合作咨询"></a>
+            </li>
+            <li class="class="feedback"" style="display: list-item;" id="qq_1">
+                <a href="####"><div class="ai-consulting-group-btn" id="feedback-btn"></div></a>
+            </li>
+            <li class="back-top" id="tb" style="display: none">
+                <a href="##" data-spec="返回顶部" class="db"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="footer_c">
+            <div class="contact">
+                <div class="tittle contact-title">联系我们</div>
+                <div class="contact-info o_h">
+                    <div class="contact-us f_l">
+                        <p><a href="">合作咨询</a></p>
+                        <p><a href="">提交工单</a></p>
+                        <p>客服电话（4008-777-818）</p>
+                    </div>
+                    <div class="qq-groups f_l">
+                        <div class="qq-group-col f_l">
+                            <div class="qq-group">语音技术<br>QQ群 631977213</div>
+                            <div class="qq-group">视频分析<br>QQ群 632473158</div>
+                            <div class="qq-group">DuerOS<br>QQ群 604592023</div>
+                            <div class="qq-group">图像识别<br>QQ群 649285136</div>
+                        </div>
+                        <div class="qq-group-col f_l">
+                            <div class="qq-group">文字识别<br>QQ群 648968704</div>
+                            <div class="qq-group">理解与交互技术UNIT<br>QQ群 584835350</div>
+                            <div class="qq-group">智能翻译<br>QQ群 214857706</div>
+                            <div class="qq-group">图像搜索<br>QQ群 630770006</div>
+                        </div>
+                        <div class="qq-group-col f_l">
+                            <div class="qq-group">人脸识别<br>QQ群 282744268</div>
+                            <div class="qq-group">自然语言<br>QQ群 632426386</div>
+                            <div class="qq-group">AR技术<br>QQ群 472081119</div>
+                            <div class="qq-group">AI开放平台<br>QQ群 224994340</div>
+                        </div>
+                        <div class="qq-group-col f_l">
+                            <div class="qq-group">图像审核<br>QQ群 375765194</div>
+                            <div class="qq-group">知识图谱<br>QQ群 655854786</div>
+                            <div class="qq-group">数据智能<br>QQ群 650596829</div>
+                        </div>
+                    </div>
+                    <div class="qr f_r">
+                        <div class="qr-img"><img src="images/sm1.jpg"></div>
+                        <div class="qr-title">关注AI</div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+                <span>©2017 ZX </span>
+                <a href="">使用前必读</a>
+            </div>
+        </div>
+    </div>
+    <!--蒙版开始-->
+    <div id="background" class="cover">
+        <div id="modal" class="ai-modal">
+            <header class="modadl-header">合作咨询<a id="close" class="modal-x" href="####"></a></header>
+            <section class="modal-content">
+                <from>
+                    <input placeholder="请输入您的公司/单位名称（必填）" type="text">
+                    <input placeholder="请输入您的姓名/称呼（必填" type="text">
+                    <input placeholder="请输入您的公司/单位名称（必填）" type="text">
+                    <input placeholder="请输入您的联系电话：手机/固定电话（必填）" type="text">
+                    <input placeholder="请输入您的邮箱（必填）" type="text">
+                    <input placeholder="请输入您的行业（选填）" type="text">
+                    <input placeholder="请输入您的公司/单位网址（必填）" type="text">
+                    <input placeholder="您的公司的业务简要介绍（选填）" type="text">
+                    <input id="input-spe" placeholder="您对AI的需求介绍（必填）" type="text">
+                </from>
+                <div class="form-actions">
+                    <button class="btn-first btn-primary">提交</button>
+                    <button class="btn-second btn-primary">取消</button>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+    window.onscroll=function(){
+        var qq=document.getElementById('qq_1');
+        var oTb=document.getElementById('tb');
+        var scrollTop=document.documentElement.scrollTop || document.body.scrollTop;
+        if(scrollTop>2500){
+            qq.style.display="none"
+        }
+        else{
+            qq.style.display="block";
+        }
+        if(scrollTop>900){
+            oTb.style.display="block";
+        }
+        else{
+            oTb.style.display="none"
+        }
+        oTb.onclick=function(){
+            document.body.scrollTop=document.documentElement.scrollTop=0;
+        }
+        qq.onclick=function(){
+            document.body.scrollTop=document.documentElement.scrollTop=4000;
+        }
+    }
+    </script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.smoove.min.js"></script>
+<script>
+    $('.block').smoove({
+    offset: '40%'
+});
+</script>
+</body>
+</html>

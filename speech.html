@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>语音识别</title>
+    <link href="CSS/reset.css" rel="stylesheet" media="screen">
+    <link href="CSS/speech.css" rel="stylesheet" media="screen">
+</head>
+<body class="ai-latform">
+    <div class="nav_w">
+        <div class="nav_clearfix">
+            <div class="logo f_l"><a href=""><img src="images/logo.png"></a></div>
+            <div class="nav_list f_l">
+                <div class="nav_item"><a href="index.html" class="a_1">首页</a></div>
+                <div class="nav_item nav-item-service">
+                    <a href="" class="a_1">产品服务</a>
+                    <div class="nav_sub o_h">
+                        <div class="nav_sub_col">
+                            <div class="nav_sub_block">
+                                <div class="nav_sub_tittle">图像识别</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_row">
+                                        <a href="Image-verification.html" class="nav_sub_l2">图像审核</a>
+                                        <a href="terrorism.html" class="nav_sub_l3">暴恐识别</a>
+                                    </div>
+                                    <div class="nav_sub_row">  
+                                        <a href="images-search.html" class="nav_sub_l2 nav_suv_new">图像识别</a>
+                                    </div>
+                                    <div class="nav_sub_row">
+                                        <a href="images-discover.html" class="nav_sub_l2 nav_suv_new">图像搜索</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav_sub_block">
+                                <div class="nav_sub_tittle">自然语言</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_con_l">
+                                        <a href="technology.html" class="nav_sub_l2">语言处理基础技术</a>
+                                    </div>
+                                    <div class="f_l nav_sub_con">
+                                        <a href="parsing.html" class="nav_sub_l3">依存句法分析</a>
+                                        <a href="vector.html" class="nav_sub_l3">词向量表示</a>
+                                        <a href="similarity.html" class="nav_sub_l3">词义相似度</a>
+                                        <a href="affective.html" class="nav_sub_l3">情感倾向分析</a>
+                                    </div>
+                                </div>
+                                    <div class="nav_sub_row">
+                                        <a href="http://fanyi-api.baidu.com/api/trans/product/index" class="nav_sub_l2 no_l3" target="_blank">翻译开发平台</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="nav_sub_col">
+                            <div class="nav_sub_block">
+                                <div class="nav_sub_tittle">语音技术</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_row">
+                                        <a href="speech.html" class="nav_sub_l2">语音识别</a>
+                                        <a href="speech-recognition.html" class="nav_sub_l3">语音识别</a>
+                                        <a href="Long-speech-recognition.html" class="nav_sub_l3">长语音识别</a>
+                                        <a href="far-field-speech-recognition.html" class="nav_sub_l3">远场语音识别</a>
+                                    </div>
+                                    <div class="nav_sub_row">  
+                                        <a href="speech-synthesis.html" class="nav_sub_l2 no_l3">语音合成</a>
+                                    </div>
+                                    <div class="nav_sub_row">
+                                        <a href="Voice-wakeup.html" class="nav_sub_l2 no_l3">语音唤醒</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav_sub_block">
+                                <div class="nav_sub_tittle">视频技术</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_row">
+                                        <a href="video.html" class="nav_sub_l2 no_l3">视频封面选图</a>
+                                        <a href="video-search.html" class="nav_sub_l2 no_l3">视频比对检索</a>
+                                        <a href="review.html" class="nav_sub_l2 no_l3">视频内容审核</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav_sub_col">
+                            <div class="nav_sub_block">
+                                <div class="nav_sub_tittle">知识图谱</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_row">
+                                        <a href="schema.html" class="nav_sub_l2 no_l3">知识图谱Schema</a>
+                                        <a href="extraction.html" class="nav_sub_l2 no_l3">结构化数据抽取</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav_sub_block">
+                                <div class="nav_sub_tittle">增强现实</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_row">
+                                        <a href="http://ar.baidu.com/home" class="nav_sub_l2 no_l3">AR平台</a>
+                                    </div>
+                                </div>
+                            </div><div class="nav_sub_block">
+                                <div class="nav_sub_tittle">深度学习</div>
+                                <div class="nav_sub_content">
+                                    <div class="nav_sub_row">
+                                        <a href="http://www.paddlepaddle.org/index.cn.html" class="nav_sub_l2 no_l3">PaddlePaddle</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_item nav-item-industry">
+                    <a href="" class="a_1">行业生态</a>
+                    <div class="nav-sub-list"> 
+                        <div class="nav-sub-item"><a href="http://apollo.auto/" target="_blank">Apollo</a></div>
+                        <div class="nav-sub-item"><a href="http://developer.dueros.baidu.com/" target="_blank">DuerOS</a></div>
+                    </div>
+                </div>
+                <div class="nav_item nav-item-solution">
+                    <a href="" class="a_1">解决方案</a>
+                    <div class="nav_sub_lo">
+                        <div class="nav_sub_item"><a href="Robot-vision.html">机器人视觉</a></div>
+                        <div class="nav_sub_item"><a href="conversational_robot.html">对话式机器人</a></div>
+                        <div class="nav_sub_item"><a href="smarthome.html">DuerOS智慧家庭</a></div>
+                        <div class="nav_sub_item"><a href="intelligent-marketing.html">AR智能营销</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="f_r">
+                <div class="nav_item"><a href="https://console.bce.baidu.com/?fromai=1#/aip/overview" target="_blank" class="a_1">控制台</a></div>
+            </div>
+        </div>
+    </div>
+    <!--NAV部分-->
+    <article class="ai-content">
+        <div class="tech-banner">
+            <div class="tech-banner-shape">
+            <div class="ai-container">
+                <div class="txt-container">
+                    <div class="txt-container-title">语音识别</div>
+                    <div class="tech-banner-info">
+                    提供业界领先的多场景语音识别技术，让您的应用长上耳朵
+                    </div>
+                    <a role="button" class="tech-banner-btn media-new" href="####">立即使用</a>
+                    <a role="button" class="tech-banner-btn media-new" href="####">技术文档</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--banner结束-->
+        <div class="teach-demo">
+            <div class="teach-demo-title block">产品功能</div>
+            <div class="tech-catalog-gallery">
+                <div class="tech-prod-container">
+                    <div class="tech-prod-item-img">
+                        <div class="tech-prod-poster tech-prod-poster-1"></div>
+                    </div>
+                    <div class="tech-prod-info">
+                        <div class="tech-prod-name">语音识别</div>
+                        <div class="tech-prod-intro">为您提供高精度的语音识别服务，融合领先的自然语言处理技术，支持多场景智能语音交互</div>
+                        <div class="tech-prod-panel">
+                            <a href="">立即使用</a><a href="">了解详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-prod-container">
+                    <div class="tech-prod-item-img">
+                        <div class="tech-prod-poster tech-prod-poster-2"></div>
+                    </div>
+                    <div class="tech-prod-info">
+                        <div class="tech-prod-name">长语音识别</div>
+                        <div class="tech-prod-intro">将长语音（长时间连续说话）转换为文字，让您解放双手，告别键盘输入时代</div>
+                        <div class="tech-prod-panel">
+                            <a href="">立即使用</a><a href="">了解详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-prod-container">
+                    <div class="tech-prod-item-img">
+                        <div class="tech-prod-poster tech-prod-poster-3"></div>
+                    </div>
+                    <div class="tech-prod-info">
+                        <div class="tech-prod-name">远场语音识别</div>
+                        <div class="tech-prod-intro">通过麦克风阵列前端处理算法，让目标说话人即使在3-5米的距离说话，也可准确识别</div>
+                        <div class="tech-prod-panel">
+                            <a href="">了解详情</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--功能演示结束-->
+        <div class="tech-scence">
+           <div class="tech-scence-header block">应用场景</div>
+           <div class="tech-scene-container">
+               <div class="tech-scene-wrapper">
+                   <div class="tech-scene-item block">
+                       <div class="tech-scene-title">语音输入法</div>
+                       <div class="tech-scene-detail">摆脱生僻字和拼音障碍，将所输入文字直接用语音的方式输入，让输入法更加便捷</div>
+                       <div class="tech-scene-serve">  
+                           <span class="main-serve">主要服务:</span>
+                           <a href="">语音识别</a>
+                           <a href="">长语音识别</a>
+                       </div>
+                       <hr class="tech-scene-line">
+                       <div class="tech-scene-cooperation">
+                           <span class="cooperation-case">合作案例:</span>
+                           <span class="tech-scene-cooperation-icon tech-scene-cooperation-4"></span>
+                           <span class="tech-scene-cooperation-title">输入法</span>
+                           <span class="tech-scene-cooperation-icon tech-scene-cooperation-5"></span>
+                           <span class="tech-scene-cooperation-title">魅族输入法</span>
+                       </div>
+                   </div>
+               </div>
+               <div class="tech-scene-wrapper">
+                   <div class="tech-scene-item block">
+                       <div class="tech-scene-title">语音搜索</div>
+                       <div class="tech-scene-detail">搜索内容直接以语音的方式输入，让搜索更加高效 </div>
+                       <div class="tech-scene-serve">  
+                           <span class="main-serve">主要服务:</span>
+                           <a href="">语音识别</a>
+                           <a href="">长语音识别</a>
+                       </div>
+                       <hr class="tech-scene-line">
+                       <div class="tech-scene-cooperation">
+                           <span class="cooperation-case">合作案例:</span>
+                           <span class="tech-scene-cooperation-icon tech-scene-cooperation-6"></span>
+                           <span class="tech-scene-cooperation-title">手机</span>
+                           <span class="tech-scene-cooperation-icon tech-scene-cooperation-7"></span>
+                           <span class="tech-scene-cooperation-title">爱奇艺</span>
+                       </div>
+                   </div>
+               </div>
+              
+               <div class="tech-scene-wrapper"></div>
+               <div class="tech-scene-wrapper"></div>
+            </div>
+        </div>
+        <!--应用场景结束-->
+        <div class="tech-feature">
+        <h4 class="tech-feature-header block">技术特色</h4>
+        <div class="ai-container">
+            <div class="feature-container">
+                <div class="feature-items block">
+                    <div class="tech-feature-icon tech-feature-icon-1"></div>
+                    <h4 class="desc-title">使用方式灵活</h4>
+                        <p class="desc-info">
+                        支持Android、iOS以及全平台的REST API方式调用，提供多垂类识别
+                        </p>
+                </div> 
+                <div class="feature-items block">
+                    <div class="tech-feature-icon tech-feature-icon-2"></div>
+                    <h4 class="desc-title">效果表现优秀</h4>
+                        <p class="desc-info">
+                        提供基于大脑的业界顶级语音模型，效果行业领先，为业务产品营造顺畅体验
+                        </p>
+                </div>
+                <div class="feature-items block">
+                    <div class="tech-feature-icon tech-feature-icon-3"></div>
+                    <h4 class="desc-title">离线在线融合模式</h4>
+                        <p class="desc-info">
+                        根据当前用户网络状况，自动判断使用本地引擎还是云端引擎进行处理
+可以兼顾速度及流量消耗
+                        </p>
+                    </div>
+                    
+                
+            </div>
+        </div>
+        <!--技术特色部分结束-->
+            <div class="tech-guide">
+                <div class="large">免费试用</div>
+                <div class="tech-guide-route block">
+                    <div class="tech-guide-step">
+                        <div class="tech-guide-step-num">1</div>
+                        <div class="tech-guide-step-name">新手入门</div>
+                    </div>
+                    <div class="tech-guide-step">
+                        <div class="tech-guide-step-num">2</div>
+                        <div class="tech-guide-step-name">创建应用</div>
+                    </div>
+                    <div class="tech-guide-step">
+                        <div class="tech-guide-step-num">3</div>
+                        <div class="tech-guide-step-name">获取密钥</div>
+                    </div>
+                    <div class="tech-guide-step">
+                        <div class="tech-guide-step-num">4</div>
+                        <div class="tech-guide-step-name">生成签名</div>
+                    </div>
+                    <div class="tech-guide-step">
+                        <div class="tech-guide-step-num">5</div>
+                        <div class="tech-guide-step-name1">启动开发</div>
+                    </div>
+                </div>
+            </div>
+            <!--产品优势结束-->
+    </article>
+    <div class="aside-action">
+        <ul>
+            <li class="consult_1">
+                <a href="" id="ai-consult" data-spec="合作咨询"></a>
+            </li>
+            <li class="class="feedback"" style="display: list-item;" id="qq_1">
+                <a href="####"><div class="ai-consulting-group-btn" id="feedback-btn"></div></a>
+            </li>
+            <li class="back-top" id="tb" style="display: none">
+                <a href="##" data-spec="返回顶部" class="db"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="footer_c">
+            <div class="contact">
+                <div class="tittle contact-title">联系我们</div>
+                <div class="contact-info o_h">
+                    <div class="contact-us f_l">
+                        <p><a href="">合作咨询</a></p>
+                        <p><a href="">提交工单</a></p>
+                        <p>客服电话（4008-777-818）</p>
+                    </div>
+                    <div class="qq-groups f_l">
+                        <div class="qq-group-col f_l">
+                            <div class="qq-group">语音技术<br>QQ群 631977213</div>
+                            <div class="qq-group">视频分析<br>QQ群 632473158</div>
+                            <div class="qq-group">DuerOS<br>QQ群 604592023</div>
+                            <div class="qq-group">图像识别<br>QQ群 649285136</div>
+                        </div>
+                        <div class="qq-group-col f_l">
+                            <div class="qq-group">文字识别<br>QQ群 648968704</div>
+                            <div class="qq-group">理解与交互技术UNIT<br>QQ群 584835350</div>
+                            <div class="qq-group">智能翻译<br>QQ群 214857706</div>
+                            <div class="qq-group">图像搜索<br>QQ群 630770006</div>
+                        </div>
+                        <div class="qq-group-col f_l">
+                            <div class="qq-group">人脸识别<br>QQ群 282744268</div>
+                            <div class="qq-group">自然语言<br>QQ群 632426386</div>
+                            <div class="qq-group">AR技术<br>QQ群 472081119</div>
+                            <div class="qq-group">AI开放平台<br>QQ群 224994340</div>
+                        </div>
+                        <div class="qq-group-col f_l">
+                            <div class="qq-group">图像审核<br>QQ群 375765194</div>
+                            <div class="qq-group">知识图谱<br>QQ群 655854786</div>
+                            <div class="qq-group">数据智能<br>QQ群 650596829</div>
+                        </div>
+                    </div>
+                    <div class="qr f_r">
+                        <div class="qr-img"><img src="images/sm1.jpg"></div>
+                        <div class="qr-title">关注AI</div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+                <span>©2017 ZX </span>
+                <a href="">使用前必读</a>
+            </div>
+        </div>
+    </div>
+    <script>
+    window.onscroll=function(){
+        var qq=document.getElementById('qq_1');
+        var oTb=document.getElementById('tb');
+        var scrollTop=document.documentElement.scrollTop || document.body.scrollTop;
+        if(scrollTop>1600){
+            qq.style.display="none"
+        }
+        else{
+            qq.style.display="block";
+        }
+        if(scrollTop>900){
+            oTb.style.display="block";
+        }
+        else{
+            oTb.style.display="none"
+        }
+        oTb.onclick=function(){
+            document.body.scrollTop=document.documentElement.scrollTop=0;
+        }
+        qq.onclick=function(){
+            document.body.scrollTop=document.documentElement.scrollTop=4000;
+        }
+    }
+    </script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.smoove.min.js"></script>
+<script>
+    $('.block').smoove({
+    offset: '40%'
+});
+</script>
+</body>
+</html>
